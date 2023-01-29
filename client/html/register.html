@@ -4,15 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/main.js" type="module"></script>
     <title>Register | Market Karly</title>
   </head>
 
   <body>
-    <section>
+    <div class="topbanner">
+      <div class="topbanner__inner">
+        <p>지금 가입하고 인기상품 100원에 받아가세요!</p>
+        <img src="../assets/icons/Icon/Close.png" alt="닫기 버튼">
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__inner">
+        <div class="header-top">
+          <ul class="header-login">
+            <li class="header__login--focused">회원가입<span>&#124;</span></li>
+            <li>로그인<span>&#124;</span></li>
+            <li><a href="#"><img src="../assets/icons/Icon/Icon_down.png" alt="내리기 버튼"></a></li>
+          </ul>
+        
+          <div class="header__search">
+            <div class="header__logo">
+              <h1 class="logo"><img src="../assets/icons/Icon/logo.png" alt="마켓칼리 로고"></h1>
+
+              <ul class="header__switch">
+                <li>마켓칼리</li>
+                <li><img src="../assets/icons/Icon/Vector.png" alt="새로운 알람"></li>
+              </ul>
+            </div>
+
+            <form action="method" class="search-form">
+              <fieldset>
+                <legend>검색창</legend>
+                <label for="search" class="a11yHidden">검색창</label>
+                <input class="search-form__input" type="search" id="search" placeholder="검색어를 입력해주세요">
+                <button type="button" class="search-form__button"><img src="../assets/icons/Icon/search.png" alt="검색 버튼"></button>
+              </fieldset>
+            </form>
+
+            <ul class="header__icons">
+              <li><a href=""><img src="../assets/icons/Icon/Location.png" alt="배송지등록"></a></li>
+              <li><a href=""><img src="../assets/icons/Icon/Heart.png" alt="좋아요"></a></li>
+              <li><a href=""><img src="../assets/icons/Icon/Cart.png" alt="장바구니"></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav">
+          <div class="nav__inner">
+            <div class="nav-kategorie"><img src="../assets/icons/Icon/Hamburger.png" alt="카테고리 버튼"></div>
+
+            <div class="nav-kategorie__submenu">
+              <ul>
+                <li><a href="#">선물하기</a></li>
+                <li><a href="#">채소</a></li>
+                <li><a href="#">과일 · 견과 · 쌀</a></li>
+                <li><a href="#">수산 · 해산 · 건어물</a></li>
+                <li><a href="#">정육 · 계란</a></li>
+                <li><a href="#">국 · 반찬 · 메인요리</a></li>
+                <li><a href="#">샐러드 · 간편식</a></li>
+                <li><a href="#">면 · 양념 · 오일</a></li>
+                <li><a href="#">생수 · 음료 · 우유 · 커피</a></li>
+                <li><a href="#">간식 · 과자 · 떡</a></li>
+                <li><a href="#">베이커리 · 치즈 · 델리</a></li>
+                <li><a href="#">건강식품</a></li>
+                <li><a href="#">와인</a></li>
+                <li><a href="#">전통주</a></li>
+                <li><a href="#">생활용품 · 리빙 · 캠핑</a></li>
+                <li><a href="#">스킨케어 · 메이크업</a></li>
+                <li><a href="#">헤어 · 바디 · 구강</a></li>
+                <li><a href="#">주방용품</a></li>
+                <li><a href="#">가전제품</a></li>
+                <li><a href="#">반려동물</a></li>
+                <li><a href="#">베이비 · 키즈 · 완구</a></li>
+                <li><a href="#">여행 · 티켓</a></li>
+              </ul>
+            </div>
+
+            <ul class="nav-menu">
+              <li><a href="#">신상품</a></li>
+              <li><a href="#">베스트</a></li>
+              <li><a href="#">알뜰쇼핑</a></li>
+              <li><a href="#">특가/혜택</a></li>
+            </ul>
+
+            <div class="nav-content">
+              <a href="#"><span>샛별·낮</span> 배송안내</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+        <h2>회원가입</h2>
+        <p></p>
+        <form action="">
+          <fieldset>
+            <legend>회원가입</legend>
+
+          </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+
+      </div>
+      <div class="footer__bottom">
+
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+    <!-- <section>
       <div class="swiper-1 product-swiper">
         <div class="swiper-wrapper"></div>
       </div>
@@ -26,8 +139,53 @@
       <div class="swiper-3 product-swiper">
         <div class="swiper-wrapper"></div>
       </div>
-    </section>
+    </section> -->
 
-    <h1>Register Part</h1>
-  </body>
-</html>
+    <!-- <header class="header">
+      <div class="header__inner">
+        <div class="header__login">
+          <ul>
+            <li class="header__login header__login--focused">회원가입</li>
+            <li>로그인</li>
+            <li><a href="#"><img src="../assets/icons/Icon/Icon_down.png" alt="내리기 버튼"></a></li>
+          </ul>
+        </div>
+
+
+        <div class="header__search">
+          <h1 class="logo"><img src="../assets/icons/Icon/logo.png" alt="마켓칼리 로고"></h1>
+
+          <div class="header__search-top">
+            <ul>
+              <li>마켓칼리</li>
+              <li>뷰티칼리</li>
+            </ul>
+          </div>
+
+          <form action="method">
+            <fieldset>
+              <legend>검색창</legend>
+              <input type="text" placeholder="검색어를 입력해주세요">
+            </fieldset>
+          </form>
+
+          <ul>
+            <li><a href=""><img src="../assets/icons/Icon/Location.png" alt="배송지등록"></a></li>
+            <li><a href=""><img src="../assets/icons/Icon/Heart.png" alt="좋아요"></a></li>
+            <li><a href=""><img src="../assets/icons/Icon/Cart.png" alt="장바구니"></a></li>
+          </ul>
+        </div>
+        <div class="nav">
+          <div class="nav__inner">
+            <div class="nav-kategorie"></div>
+            <ul>
+              <li><a href="#">신상품</a></li>
+              <li><a href="#">베스트</a></li>
+              <li><a href="#">알뜰쇼핑</a></li>
+              <li><a href="#">특가/혜택</a></li>
+            </ul>
+            <div><span>샛별・택배</span> 배송안내</div>
+          </div>
+        </div>
+      </div>
+    </header> -->
